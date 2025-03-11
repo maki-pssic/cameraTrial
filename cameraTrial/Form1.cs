@@ -52,7 +52,7 @@ namespace cameraTrial
         private void btnSave_Click(object sender, EventArgs e)
         {
             var saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Title =@"Saving your Photo";
+            saveFileDialog.Title =@"Saving your Photo!1!!!";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 if (pictureBox2.Image != null)
@@ -72,7 +72,8 @@ namespace cameraTrial
                 }
 
                 MessageBox.Show(@"Picture saved Successfully!");
-                
+                MessageBox.Show(@"Picture saved Successfully!");
+
             }
         }
 
